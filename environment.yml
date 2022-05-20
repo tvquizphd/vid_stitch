@@ -1,0 +1,11 @@
+name: vid_stitch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - pysrt==1.1.2
+    - opentimelineio==0.14.1
+prefix: /Users/jth30/opt/anaconda3/envs/vid_stitch
